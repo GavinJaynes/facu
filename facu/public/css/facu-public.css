@@ -1,0 +1,54 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.post-type-archive-faq h1 {
+    text-align: center;
+}
+
+.post-type-archive-faq h2 {
+    text-align: left;
+    padding-left: 10px;
+    border-left: 6px solid #0D8876;
+}
+
+.post-type-archive-faq .facu-intro {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #DDD;
+}
+
+.post-type-archive-faq .question-categories {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+.post-type-archive-faq .question-categories li {
+    padding:  10px 20px;
+    border-right: 1px solid #CCC;
+}
+
+.post-type-archive-faq .question-categories li:last-child {
+    border-right: 0;
+}
+
+.post-type-archive-faq .panel-heading {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.post-type-archive-faq .panel-group .panel {
+    border-radius: 0;
+}

@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.faq-form {
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: 1px solid #DDD;
+    background-color: white;
+}
+
+.faq-option {
+    max-width: 50%;
+    display: block;
+    margin: 20px 0;
+}
+
+.faq-option textarea,
+.faq-option input[type="text"] {
+    width: 100%;
+    display: block;
+}
+
+.faq-option textarea {
+    height: 300px;
+}
